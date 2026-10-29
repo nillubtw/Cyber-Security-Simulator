@@ -1,0 +1,27 @@
+import { Routes, Route } from "react-router-dom";
+import { MainLayout } from "../layouts/MainLayout";
+import { Home } from "../pages/Home";
+import { PhishingSimulator } from "../pages/PhishingSimulator";
+import { FakeWebsiteDetector } from "../pages/FakeWebsiteDetector";
+import { PasswordAnalyzer } from "../pages/PasswordAnalyzer";
+import { CyberQuiz } from "../pages/CyberQuiz";
+import { AttackSimulation } from "../pages/AttackSimulation";
+import { Dashboard } from "../pages/Dashboard";
+import { About } from "../pages/About";
+import { NotFound } from "../pages/NotFound";
+
+export const AppRoutes = () => (
+  <Routes>
+    <Route element={<MainLayout />}>
+      <Route index element={<Home />} />
+      <Route path="phishing-simulator" element={<PhishingSimulator />} />
+      <Route path="fake-website-detector" element={<FakeWebsiteDetector />} />
+      <Route path="password-analyzer" element={<PasswordAnalyzer />} />
+      <Route path="cyber-quiz" element={<CyberQuiz />} />
+      <Route path="attack-simulation" element={<AttackSimulation />} />
+      <Route path="dashboard" element={<Dashboard />} />
+      <Route path="about" element={<About />} />
+      <Route path="*" element={<NotFound />} />
+    </Route>
+  </Routes>
+);
