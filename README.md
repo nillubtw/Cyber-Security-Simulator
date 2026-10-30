@@ -2,7 +2,7 @@
 
 A modern, interactive cybersecurity training platform built with React. Learn to identify phishing emails, detect fake websites, strengthen passwords, and respond to real-world attack scenarios — all in a safe simulated environment.
 
-![Cyber Security Awareness Simulator](./docs/screenshots/hero.png)
+Cyber Security Awareness Simulator
 
 ## Features
 
