@@ -107,6 +107,3 @@ src/
 | `cyber-quiz-scores` | Quiz score history |
 | `cyber-sim-stats` | Simulation completion counts |
 
-## License
-
-Educational use only. This project is for cybersecurity awareness training purposes.
